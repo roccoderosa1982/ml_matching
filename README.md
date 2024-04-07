@@ -23,25 +23,31 @@ The complexity of the match_bulk function is O(n*m), where n is the number of ta
 
 1. Clone the repository:
 
+```console
 bash
 git clone https://github.com/yourusername/your-repo.git](https://github.com/roccoderosa1982/ml_matching.git
 cd your-repo
+```
 
 
 2. Create a virtual environment and install the dependencies:
 
+```console
 bash
 python -m venv venv
 source venv/bin/activate  # On Windows use venv\Scripts\activate
 pip install -r requirements.txt
+```
 
 
 ## Usage
 
 To run the project, use the following command:
 
+```console
 bash
 python main.py
+```
 
 
 ## Contributing
