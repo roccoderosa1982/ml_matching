@@ -29,7 +29,7 @@ In summary, using a machine learning algorithm for job-talent matching can provi
 
 ```console
 bash
-git clone https://github.com/yourusername/your-repo.git](https://github.com/roccoderosa1982/ml_matching.git
+git clone https://github.com/roccoderosa1982/ml_matching.git
 cd your-repo
 ```
 
