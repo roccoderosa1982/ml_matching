@@ -13,11 +13,7 @@ In addition to the heuristic algorithm, a machine learning model is used in the 
 
 The match_bulk function prepares the data for the model and uses the model to predict the match for each talent-job pair. The model's predictions are then returned along with the talent and job data.
 
-### Complexity Analysis
-
-The time complexity of the heuristic algorithm is O(n), where n is the number of job-talent pairs. This is because the algorithm iterates through each pair once. The space complexity is also O(n), as the transformed data is stored in memory.
-
-The complexity of the match_bulk function is O(n*m), where n is the number of talents and m is the number of jobs. This is because for each talent, the function iterates through all jobs to make a prediction.
+Note: The example dataset is very easy to learn, indeed both heuristic and ML model get very high accuracy.
 
 ## Installation
 
