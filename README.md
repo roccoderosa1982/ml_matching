@@ -3,7 +3,7 @@
 This is a Python project for matching talents to jobs using machine learning.
 
 ## Job-Talent Matching Algorithm
-The provided code is used to match job seekers (talents) with job postings (jobs). The code reads a JSON file containing talent and job data, validates the data format, transforms the data into a format suitable for matching, and then matches the talents to the jobs using a heuristic-based matching algorithm.
+The provided code is used to match job seekers (talents) with job postings (jobs). The code reads a JSON file containing talent and job data, validates the data format, transforms the data into a format suitable for matching, and then matches the talents to the jobs using a heuristic-based matching algorithm and a more sophisticated machine learning solution.
 
 ### Heuristic Algorithm
 The heuristic algorithm used in this code is a simple matching algorithm that checks if the talent's degree is equal to or higher than the job's minimum degree, if the talent is interested in at least one of the job roles that the job requires, and if the talent speaks at least one of the languages that the job requires. The algorithm also checks if the talent's seniority level is within the range of seniorities required by the job.
