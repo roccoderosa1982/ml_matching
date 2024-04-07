@@ -66,7 +66,7 @@ class Search:
         return res
 
     
-def sarch_main():
+def search_main():
     
     model = 'model/model.joblib'
     single_talent = load_data('data/single_talent.json')
