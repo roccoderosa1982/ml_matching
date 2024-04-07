@@ -13,7 +13,15 @@ In addition to the heuristic algorithm, a machine learning model is used in the 
 
 The match_bulk function prepares the data for the model and uses the model to predict the match for each talent-job pair. The model's predictions are then returned along with the talent and job data.
 
-Note: The example dataset is very easy to learn, indeed both heuristic and ML model get very high accuracy.
+**Note**: The example dataset is very easy to learn, indeed both heuristic and ML model get very high accuracy. Deciding to use a machine learning algorithm for job-talent matching can be driven by several factors:
+
+**Complexity of the Matching Problem**: The heuristic-based matching algorithm might work well for simple cases, but as the complexity of the matching criteria increases, it may become less effective or even inaccurate. Machine learning algorithms can learn from data and improve their predictions over time, which can handle more complex scenarios.
+
+**Large Scale Matching**: If you have a large number of job seekers and job postings, a machine learning model can handle this scale more efficiently than a heuristic algorithm. 
+
+**Flexibility**: Machine learning models can handle a wide range of data types and structures, including categorical, numerical, and text data. This flexibility is not always possible with heuristic algorithms.
+
+In summary, using a machine learning algorithm for job-talent matching can provide a more accurate and efficient solution for large-scale matching problems, especially when the matching criteria become complex or when the data changes over time.
 
 ## Installation
 
